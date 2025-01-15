@@ -1,0 +1,90 @@
+.body-color{
+    justify-content: center;
+    background-color: rgb(211,211,211);
+}
+.headings-main{
+     text-align: center;
+     color: rgb(0,0,139);
+     text-decoration-line: underline;
+     text-decoration-color: rgb(0,0,139);
+     text-shadow: 1px 1px;
+     font-style: italic;
+     font-weight: bold;
+}
+.headings-two{
+    color:rgb(100,149,237);
+    font-style: italic;
+}
+.nav-bar{
+    height: 50px;
+    display: flex;
+    background-color: rgb(100,149,237);
+    justify-content: center;
+}
+.menu-item{
+        font-size: 20px;
+        margin: 20px;
+}
+.menu-box{
+        min-height: 300px;
+}
+
+.main-content{
+    height: 400px;
+}
+
+.contents{
+    font-size: 14px;
+    color: rgb(72,61,139);
+}
+
+a:link, a:visited {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(100,149,237);
+  color: white;
+}
+
+
+@media (max-width: 400px) {
+    .body-color{
+     justify-content: center;
+     background-color: rgb(255,250,205);
+    }
+    .nav-bar{
+        height: 30px;
+        display: flex;
+        background-color: rgb(210,105,30);
+        justify-content: center;
+    }
+    .menu-item{
+            font-size: 10px;
+            margin: 10px;
+    }
+    .menu-box{
+            min-height: 100px;
+            display: flex;
+    }
+    .headings-main{
+         text-align: left;
+         color: rgb(138,43,226);
+         text-decoration-line: none;
+         text-decoration-color: rgb(138,43,226);
+         font-style: none;
+         font-weight: none;
+         font-size: 5 px;
+    }
+    .headings-two{
+        color:rgb(220,20,60);
+        font-style: italic;
+    }
+    .contents{
+        font-size:10px;
+        color:rgb(139,0,139);
+    }
+}
